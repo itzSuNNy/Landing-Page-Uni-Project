@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    font-family: 'Cabin';
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #ffffff;
+    height: 80px;
+}
+
+.navbar .navbar-brand {
+    color: #000000;
+    margin-left: 65px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000000;
+}
+
+.get-btn button {
+    background-color: #1F90D6;
+    border: none;
+    border-radius: 10px;
+    margin-right: 65px;
+    padding: 10px;
+    width: 130px;
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.get-btn button:hover {
+    background-color: #ffffff;
+    color: #1F90D6;
+    border: 1px solid #1F90D6;
+}
+
+
+/* Home */
+
+.header {
+    width: 100%;
+    background-color: #F7F8F9;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #071e55;
+    font-weight: bold;
+}
+
+.header-left span {
+    font-size: 20px;
+    color: #405263;
+    font-family: 'Raleway';
+}
+
+.header-email input {
+    border: 1px solid #c8c8c8c8;
+    border-radius: 27px;
+    height: 55px;
+    padding: 26px;
+    width: 300px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.header-btn button {
+    background-color: #1F90D6;
+    border: none;
+    border-radius: 27px;
+    padding: 10px;
+    height: 55px;
+    width: 130px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.header-btn button:hover {
+    background-color: #ffffff;
+    color: #1F90D6;
+    border: 1px solid #1F90D6;
+}
+
+.header-check span {
+    display: block;
+    font-size: 16px;
+    color: #405263;
+    font-family: 'Raleway';
+    margin-bottom: 10px;
+}
+
+.header-check span i {
+    color: #1F90D6;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+
+
+/* about */
+
+.about-heading h1 {
+    font-weight: bold;
+    color: #071E55;
+}
+
+.about-heading p {
+    color: #071E55;
+    font-size: 20px;
+}
+
+.about-section .card {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 20px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px 30px;
+    background-color: #FEFEFE;
+    border-color: #c3c3c3;
+    border-radius: 10px;
+}
+
+.icon-l1 {
+    width: 20%;
+}
+
+.icon-l1 span {
+    font-size: 65px;
+}
+
+.content-l1 {
+    width: 80%;
+}
+
+.content-l1 h6 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #071E55;
+}
+
+
+/* showcase */
+
+.carousel {
+    position: unset;
+}
+
+.carousel-indicators li {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    height: 10px;
+    width: 20px;
+}
+
+.carousel-indicators {
+    bottom: 35px;
+}
+
+.show-case {
+    background-color: #1e90ff;
+    //height: 630px;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 110px;
+}
+
+.title_show h1 {
+    font-size: 2.2rem;
+    font-family: 'cabin';
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.showCon h6 {
+    font-size: 1rem;
+    font-family: 'cabin';
+    color: #444444;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.title_show p {
+    font-size: 1.2rem;
+    font-family: 'cabin';
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.showCon p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.9em;
+    color: #b2b2b2;
+    font-style: italic;
+}
+
+.showCon {
+    border: none;
+    border-radius: 7px;
+}
+
+.img-show img {
+    border-radius: 7px;
+}
+
+.change {
+    position: absolute;
+}
+
+
+/* team */
+
+.content-team {
+    width: 60%;
+}
+
+.team-con {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px #0000001a;
+}
+
+.content-team h1 {
+    font-size: 36px;
+    color: #071e55;
+    font-weight: 700;
+}
+
+.content-team p {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.team-img {
+    width: 170px;
+    height: 170px;
+    padding: 7px;
+    margin: 0 auto;
+    border-radius: 100px;
+    box-shadow: 0 0 9px 0px #21252933;
+}
+
+.team-img img {
+    border-radius: 100px;
+}
+
+.team-profile h5 {
+    margin: 20px 0 1px 0!important;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team-profile h6 {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    font-family: 'Raleway', sans-serif
+}
+
+.team-profile span {
+    display: block;
+    background-color: #1e90ff;
+    width: 50px;
+    height: 4px;
+    margin: 15px auto;
+}
+
+.team-dis {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social {
+    justify-content: center;
+    width: 100%;
+}
+
+.social span {
+    width: 35px;
+    height: 35px;
+    color: white;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social span:hover {
+    transform: translateY(-15px);
+}
+
+.social span:nth-child(1) {
+    background: #4099ff;
+}
+
+.social span:nth-child(2) {
+    background: #C92228;
+}
+
+.social span:nth-child(3) {
+    background: #CA2F8B;
+}
+
+.social span:nth-child(4) {
+    background: #3B5998;
+    margin-right: 0px;
+}
+
+.c-head {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px 0px;
+}
+
+
+/*Contact us  */
+
+.info-area input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 23px;
+    color: #727272;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.info-area button {
+    padding: 15px;
+    font-size: 14px;
+    width: 150px;
+    color: #FEFEFE;
+    background-color: #1E90FF;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+
+.info-area button:hover {
+    background-color: #ffffff;
+    color: #1F90D6;
+    border: 1px solid #1F90D6;
+}
+
+iframe {
+    width: 100%;
+    height: 367px;
+    padding: 10px;
+    box-shadow: 0 0 7px 3px #00000021;
+    border-radius: 4px;
+}
+
+
+/* feature  */
+
+.features-content {
+    width: 64%;
+    margin: 0 auto;
+}
+
+.features-content h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #071E55;
+}
+
+.features-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.features-dis span {
+    font-size: 50px;
+    color: #1E90FF;
+}
+
+.features-dis h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #071E55;
+}
+
+.features-dis p {
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* footer */
+
+.footer {
+    height: 80px;
+}
+
+.footer span {
+    font-size: 15px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 575.98px) {
+    .container {
+        padding: 0px;
+    }
+    .header-email {
+        flex-direction: column;
+    }
+    .header-email input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header-btn{
+        margin-left: 85px;
+    }
+    .about-heading h1 {
+        font-size: 31px;
+    }
+    .about-us .card {
+        padding: 10px;
+        align-items: center;
+        max-height: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .about-us .margin-imp {
+        margin-top: 20px;
+    }
+    .icon-l1 {
+        width: 28%;
+    }
+    .content-l1 {
+        width: 72%;
+    }
+    .icon-l1 span {
+        font-size: 50px;
+    }
+    .content-l1 p {
+        margin-bottom: 0px;
+    }
+    .title_show h1 {
+        font-size: 25px;
+        margin-top: 24px;
+    }
+    .title_show p {
+        margin-bottom: 19px;
+        font-size: 19px;
+    }
+    .show-case {
+        height: 100%;
+        padding: 25px 0px;
+    }
+    .showCon {
+        margin-bottom: 25px;
+    }
+    .carousel-indicators {
+        bottom: 4px;
+    }
+    .content-team {
+        width: 90%;
+    }
+    .content-team h1 {
+        font-size: 31px;
+    }
+    .team-con {
+        margin-bottom: 20px;
+    }
+    .footer span {
+        font-size: 13px;
+    }
+    .footer a {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 767.99px){
+  
+    .header {
+        padding-top: 150px;
+    }
+
+    .img-fluid{
+        margin: 115px 10px;
+    }
+    .header-email input{
+        padding: 10px;
+        text-align: center;
+        margin-right: 7px;
+    }
+    .header-btn button{
+        width: 111px;
+        padding: 4px;
+    }
+    .header-check span{
+        font-size: 15px;
+    }
+    .about-section .card{
+        padding: 18px 22px;
+    }
+    .icon-l1{
+        padding-top: 30px;
+    }
+    .icon-l1 span{
+        font-size: 40px;
+    }
+
+    .content-l1 p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .show-case{
+        height: 100%;
+        padding-top: 40px;
+        padding-bottom: 55px;
+    }
+    .title_show h1{
+        font-size: 33px;
+        margin:  0px;
+    }
+    .title_show p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .img-fluid{
+        margin: 0;
+    }
+    .img-show img {
+        border-radius: 0px;
+    }
+    .carousel-indicators {
+        bottom: 3px;
+    }
+    .content-team h1{
+        font-size: 33px;
+    }
+    .content-team p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .team-con {
+        height: 100%;
+        padding: 11px;
+    }
+    .team-profile h5 , .team-profile h6{
+        font-size: 14px;
+    }
+    .team-dis {
+        line-height: 25px;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .team-profile span{
+
+        margin: 10px auto;
+    }
+
+}
